@@ -1,8 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: {
-    appDir: true,
+  redirects() {
+    return [
+      {
+        source: "/training-planner",
+        destination: "/training-planner/hypertrophy",
+        permanent: false,
+      },
+    ]
   },
 }
 
