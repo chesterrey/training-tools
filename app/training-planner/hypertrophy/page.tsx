@@ -11,8 +11,8 @@ export default function HypertrophyPlanner() {
           Hypertrophy Planner
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Create a custom hypertrophy training plan based on your preferences
-          and goals.
+          Create custom hypertrophy training plans, offering options for
+          exercise selection, program duration, and routine frequency.
         </p>
       </div>
       <div className="space-y-6">

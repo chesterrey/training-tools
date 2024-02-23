@@ -12,6 +12,10 @@ export const siteConfig = {
       title: "Training Planner",
       href: "/training-planner",
     },
+    {
+      title: "Calorie Calculator",
+      href: "/calorie-calculator",
+    },
   ],
   links: {
     github: "https://github.com/chesterrey/training-tools",

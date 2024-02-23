@@ -1,7 +1,14 @@
 import Link from "next/link"
 
 import { siteConfig } from "@/config/site"
+import { toolsConfig } from "@/config/tools"
 import { buttonVariants } from "@/components/ui/button"
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 export default function IndexPage() {
   return (
@@ -26,6 +33,20 @@ export default function IndexPage() {
         >
           GitHub
         </Link>
+      </div>
+      <div className="items-start justify-center gap-6 p-8 grid lg:grid-cols-2 xl:grid-cols-3">
+        {toolsConfig.map((tool) => {
+          return (
+            <Link href={tool.href}>
+              <Card>
+                <CardHeader>
+                  <CardTitle>{tool.name}</CardTitle>
+                  <CardDescription>{tool.description}</CardDescription>
+                </CardHeader>
+              </Card>
+            </Link>
+          )
+        })}
       </div>
     </section>
   )
