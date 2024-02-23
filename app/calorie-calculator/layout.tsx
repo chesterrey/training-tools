@@ -17,8 +17,7 @@ export default function CalorieCalculatorLayout({
             Calorie Calculator
           </h2>
           <p className="text-muted-foreground">
-            The Calorie Calculator is designed to calculate the daily calorie
-            intake required for an individual.
+            Calculate the daily calorie intake required for an individual.
           </p>
         </div>
         <Separator className="my-6" />

@@ -10,7 +10,7 @@ export const toolsConfig = [
   {
     name: "Calorie Calculator",
     description:
-      "The Calorie Calculator is designed to calculate the daily calorie intake required for an individual.",
+      "Calculate the daily calorie intake required for an individual.",
     href: "/calorie-calculator",
   },
 ]

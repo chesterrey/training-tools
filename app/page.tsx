@@ -37,7 +37,7 @@ export default function IndexPage() {
       <div className="items-start justify-center gap-6 p-8 grid lg:grid-cols-2 xl:grid-cols-3">
         {toolsConfig.map((tool) => {
           return (
-            <Link href={tool.href}>
+            <Link href={tool.href} key={tool.href}>
               <Card>
                 <CardHeader>
                   <CardTitle>{tool.name}</CardTitle>

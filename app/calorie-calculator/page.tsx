@@ -1,7 +1,9 @@
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
+
 export default function CalorieCalculator() {
   return (
     <>
-      <div></div>
+      <div>Hello World</div>
     </>
   )
 }
